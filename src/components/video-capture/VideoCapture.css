@@ -1,0 +1,19 @@
+.video {
+  -o-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+  object-fit: contain;
+  /* width: 100%; */
+  max-height: 320px;
+}
+
+.video__wrapper {
+  width: 100%;
+  /* max-width: 480px; */
+}
+
+.button__item {
+  margin: 5px 10px;
+}
